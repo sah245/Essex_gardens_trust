@@ -2,11 +2,43 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essex Gardens Trust - Home</title>
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 
 </head>
 <body>
-    <h1>Essex Gardens Trust</h1>
+    <nav class = "navbar fixed-top navbar-expand-lg">
+        <div class = "container-fluid">
+            <a class = "navbar-brand" href="#">Essex Gardens Trust</a>
+            <button class = "navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarAltMarkup" aria-controls="navbarAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#">Gardens</a>
+                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class = "hero text-white py-5">
+        <div class = "hero-overlay container py-5">
+            <div class ="container-fluid">
+                <h1 class = "display-4">Welcome to Essex Gardens Trust</h1>
+                <p class = "lead">Preserving and promoting the historic gardens of Essex.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

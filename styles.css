@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #2f5d50;   /* deep garden green */
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+}
+
+.navbar .nav-link:hover {
+  color: #cce3de;
+}
+
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.hero {
+  background: url('img/hero.jpg') center/cover no-repeat;
+  fill-opacity: 0.6;
+  min-height: 50vh;
+}
+
+.hero-overlay {
+  display: flex;
+  flex-direction:column-reverse;
+
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+
