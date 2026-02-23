@@ -3,11 +3,17 @@
 }
 
 .navbar .nav-link {
-  color: #ffffff;
+  color: #22d649;
 }
 
+
 .navbar .nav-link:hover {
-  color: #cce3de;
+  color: #00ff37;
+}
+
+.nav-link.active{
+  color: #00ff37 !important;
+  font-weight: 600;
 }
 
 .navbar .navbar-brand {
@@ -18,7 +24,7 @@
 .hero {
   background: url('img/hero.jpg') center/cover no-repeat;
   fill-opacity: 0.6;
-  min-height: 50vh;
+  min-height: 30vh;
 }
 
 .hero-overlay {
@@ -29,4 +35,34 @@
   margin-top: 5rem;
 }
 
+.wwd-ttl {
+  text-align: center;
+  color: #2f5d50;
+  font-weight: 600;
+}
 
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-text{
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+.fade-delay-1 { animation-delay: 0.2s; }
+.fade-delay-2 { animation-delay: 0.4s; }
+.fade-delay-3 { animation-delay: 0.6s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
