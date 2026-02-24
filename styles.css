@@ -1,9 +1,23 @@
 .navbar {
-  background-color: #2f5d50;   /* deep garden green */
+  background-color: #ffffff;   /* deep garden green */
+}
+
+.navbar-toggler {
+  border-color: #22d649 ; /* bright leaf green */
+
+}
+
+body {
+  padding-top: 4rem;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(34,214,73, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .navbar .nav-link {
-  color: #22d649;
+  color: #000000;
+
 }
 
 
@@ -17,7 +31,6 @@
 }
 
 .navbar .navbar-brand {
-  color: #ffffff;
   font-weight: 600;
 }
 
@@ -46,9 +59,43 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-title {
+  color: #2f5d50;
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding-top: 0.5rem;
+}
+
 .card-text{
+  padding: 0.5rem 0;
   font-size: 1.05rem;
   line-height: 1.6;
+}
+
+.card-img {
+  object-fit: fill;
+  height: 13rem;
+}
+
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  font-family: 'Georgia', serif;
+}
+
+.btn-primary {
+  background-color: #2f5d50;
+  border-color: #2f5d50;
+}
+.btn-primary:hover {
+  background-color: #22d649;
+  border-color: #22d649;
 }
 
 .fade-in-up {
@@ -59,10 +106,46 @@
 .fade-delay-1 { animation-delay: 0.2s; }
 .fade-delay-2 { animation-delay: 0.4s; }
 .fade-delay-3 { animation-delay: 0.6s; }
+.fade-delay-4 { animation-delay: 0.8s; }
+.fade-delay-5 { animation-delay: 1s; }
 
 @keyframes fadeInUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+
+.btn-floating {
+  background-color: #2f5d50;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-floating .bi {
+  font-size: 1.25rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.btn-floating:hover .bi-envelope {
+  color: #4caf50;   /* garden green */
+}
+
+.btn-floating:hover .bi-facebook {
+  color: #1877f2;
+  transition: color 0.3s ease;
+}
+
+.btn-floating:hover .bi-instagram {
+  color: #e4405f;
+}
+
+.btn-floating:hover .bi-twitter-x {
+  color: #000000;
 }
