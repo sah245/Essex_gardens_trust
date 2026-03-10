@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essex Gardens Trust | Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css" />
+
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class = "navbar fixed-top navbar-expand-lg">
+        <div class = "container-fluid">
+            <a class = "navbar-brand" href="index.html">
+                <img src="img/logo-transparent-short.png" alt="Essex Gardens Trust Logo" width="100" height="80" class="d-inline-block align-text-center">
+            </a>
+            <button class = "navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarAltMarkup" aria-controls="navbarAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="about.html">What We Do</a>
+                    <a class="nav-link active" aria-current="page" href="gardens.html">Gardens</a>
+                    <a class="nav-link"  href="events.html">Events</a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="container my-5 pt-5">
+        <div class="row mt-1 mb-2">
+            <div class="wwd-ttl">
+                <h2>Iconic Gardens</h2>
+                <p>Discover the beauty and history of Essex's most iconic gardens.</p>
+                <p><strong>Select an image to learn about each garden.</strong></p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#audleyModal"
+                data-title="Audley House">
+                    <img src="img/audley_house_1.jpg" class="img-fluid rounded gallery-img">
+                </button>
+
+                <div class="modal fade" id="audleyModal" tabindex="-1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Audley House</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/audley_house_1.jpg" class="img-fluid rounded">
+                                <p>A beautiful garden located in the heart of Essex.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#bethModal"
+                data-title="Beth Chatto Garden" data-description="A stunning garden known for its beautiful plant combinations.">
+                    <img src="img/bethchatto.jpg" class="img-fluid rounded gallery-img">
+                </button>
+
+                <div class="modal fade" id="bethModal" tabindex="-1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Beth Chatto Garden</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/bethchatto.jpg" class="img-fluid rounded">
+                                <p>A stunning garden known for its beautiful plant combinations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#eastonModal"
+                data-title="The Gardens of Easton Lodge" 
+                data-description="Gardens created by Countess of Warwick and designed by Harold Peto, the gardens were abandoned in 1950 and are now undergoing restoration.">
+                    <img src="img/eastonlodge.jpg" class="img-fluid rounded gallery-img">
+                </button>
+            </div>
+
+            <div class="modal fade" id="eastonModal" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">The Gardens of Easton Lodge</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/eastonlodge.jpg" class="img-fluid rounded">
+                            <p>Gardens created by Countess of Warwick and designed by Harold Peto, the gardens were abandoned in 1950 and are now undergoing restoration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+
+    <!-- Footer -->
+    <footer class="footer text-center py-3">
+        <div class="container">
+            <div class="footer-socials text-center">
+                <div class="mb-3">
+                    <a href="https://www.facebook.com/essexgardenstrust/" target="_blank" class="btn btn-outline-light btn-floating m-1">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="mailto:info@essexgardenstrust.org.uk" target="_blank" class="btn btn-outline-light btn-floating m-1">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                    <a href="https://www.instagram.com/essexgardenstrust" target="_blank" class="btn btn-outline-light btn-floating m-1">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://x.com/EssexGT" target="_blank" class="btn btn-outline-light btn-floating m-1">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p class="mb-0">A Member of the <a href="https://thegardenstrust.org/" target="_blank">Gardens Trust</a>.</p>
+                <p class="mb-0">Registered Charity No. 1057876.</p>
+                <p class="mb-0">Company No. 3233796 | <a href="https://www.gov.uk/government/organisations/gardens-trust" target="_blank">Contact us</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="mb-0">Copyright &copy; 2026 Essex Gardens Trust. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
