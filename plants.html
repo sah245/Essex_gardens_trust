@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essex Gardens Trust | Gardens</title>
+    <link rel="icon" type="image/x-icon" href="img/logo-short.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css" />
+
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class = "navbar fixed-top navbar-expand-lg">
+        <div class = "container-fluid">
+            <a class = "navbar-brand" href="index.html">
+                <img src="img/logo-transparent-short.png" alt="Essex Gardens Trust Logo" width="100" height="80" class="d-inline-block align-text-center">
+            </a>
+            <button class = "navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarAltMarkup" aria-controls="navbarAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            What We Do
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="conservation.html">Conservation</a></li>
+                            <li><a class="dropdown-item" href="garden-research.html">Garden Research</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="roots.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Roots
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="gardens.html">Iconic Gardens</a></li>
+                            <li><a class="dropdown-item active" href="plants.html">Plant Heritage Collection</a></li>
+                        </ul>
+                    </li>
+                    <a class="nav-link" href="events.html">Events</a>
+                    <div class="nav-link">
+                        <a href="membership.html" class="btn btn-primary">Join Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="container my-5 pt-5">
+        <div class="row mt-1 mb-2">
+            <div class="wwd-ttl">
+                <h2>Roots: Plant Heritage Collection</h2>
+                <h5>Explore the rich diversity of plant species that define Essex's natural heritage.</h5>
+                <p><strong>Select an image to learn about each plant.</strong></p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#bergeniaModal"
+                data-title="Bergenia (bred or associated with Eric Smith)">
+                    <img src="img/bergenia.jpg" class="img-fluid rounded gallery-img">
+                </button>
+
+                <div class="modal fade" id="bergeniaModal" tabindex="-1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-center w-100">Bergenia (bred or associated with Eric Smith)</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="bergeniaCarousel" class="carousel slide">
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active">
+                                            <img src="img/bergenia.jpg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="img/bergenia2.jpg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#bergeniaCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                        </button>
+
+                                        <button class="carousel-control-next" type="button" data-bs-target="#bergeniaCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p class="pt-2 text-center">C. Hallsworth, Marylandsea </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#camelliaModal"
+                data-title="Camellia (Autumn and Winter flowering)" data-description="A stunning garden known for its beautiful plant combinations.">
+                    <img src="img/camellia.jpg" class="img-fluid rounded gallery-img">
+                </button>
+
+                <div class="modal fade" id="camelliaModal" tabindex="-1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-center w-100">Camellia (Autumn and Winter flowering)</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="camelliaCarousel" class="carousel slide">
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active">
+                                            <img src="img/camellia.jpg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="img/camellia2.jpg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#camelliaCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                        </button>
+
+                                        <button class="carousel-control-next" type="button" data-bs-target="#camelliaCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p class="pt-2 text-center">Fiona Edmond, Green Island Gardens, Ardleigh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#corydalisModal"
+                data-title="Corydalis spp." 
+                data-description="Gardens created by Countess of Warwick and designed by Harold Peto, the gardens were abandoned in 1950 and are now undergoing restoration.">
+                    <img src="img/corydalis.jpg" class="img-fluid rounded gallery-img">
+                </button>
+            </div>
+
+            <div class="modal fade" id="corydalisModal" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center w-100">Corydalis spp.</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                                <div id="corydalisCarousel" class="carousel slide">
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active">
+                                            <img src="img/corydalis.jpg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="img/corydalis2.jpg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#corydalisCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                        </button>
+
+                                        <button class="carousel-control-next" type="button" data-bs-target="#corydalisCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                        </button>
+                                    </div>
+                            <p class="pt-2 text-center">B. Wickenden, St. Osyth </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row g-4">
+                <div class="col-md-4">
+                    <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#epimediumModal"
+                        data-title="Epimedium " 
+                        data-description="Created by the post-war architect Sir Frederick Gibberd (1908-1984).">
+                            <img src="img/epimedium.jpeg" class="img-fluid rounded gallery-img">
+                    </button>
+                </div>
+
+                <div class="modal fade" id="epimediumModal" tabindex="-1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-center w-100">Epimedium </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                   <div id="epimediumCarousel" class="carousel slide">
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active">
+                                            <img src="img/epimedium.jpeg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="img/epimedium2.jpeg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#epimediumCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                        </button>
+
+                                        <button class="carousel-control-next" type="button" data-bs-target="#epimediumCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p class="pt-2 text-center">Roger Hammond, Brentwood </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="col-md-4">
+                <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#viburnumModal"
+                    data-title="Viburnum with the RHS AGM" 
+                    data-description="Dynamic hillside garden created in 1955 by the Robinsons and bequeathed to the RHS in 1993.">
+                    <img src="img/viburnum.jpg" class="img-fluid rounded gallery-img">
+                </button>
+            </div>
+
+            <div class="modal fade" id="viburnumModal" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center w-100">Viburnum with the RHS AGM</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                                <div id="viburnumCarousel" class="carousel slide">
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active">
+                                            <img src="img/viburnum.jpg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="img/viburnum2.jpg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#viburnumCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                        </button>
+
+                                        <button class="carousel-control-next" type="button" data-bs-target="#viburnumCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            <p class="pt-2 text-center">RHS Garden Hyde Hall, Rettenden</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <button class="btn btn-link" data-bs-toggle="modal" data-bs-target="#malusModal"
+                    data-title="Malus (ornamental crab apple)" 
+                    data-description="Arboretum and contemporary walled lakeside garden designed by Brita von Schoenaich.">
+                    <img src="img/malus.jpg" class="img-fluid rounded gallery-img">
+                </button>
+            </div>
+
+            <div class="modal fade" id="malusModal" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center w-100">Malus (ornamental crab apple)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                                <div id="malusCarousel" class="carousel slide">
+                                    <div class="carousel-inner">
+
+                                        <div class="carousel-item active">
+                                            <img src="img/malus.jpg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="img/malus2.jpg" class="d-block w-100 rounded">
+                                        </div>
+
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#malusCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                        </button>
+
+                                        <button class="carousel-control-next" type="button" data-bs-target="#malusCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            <p class="pt-2 text-center">The Christabella Charitable Trust, West Horndon </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4 py-5">
+
+        </div>
+
+    </section>
+        
+
+    <!-- Footer -->
+    <footer class="footer text-center py-3">
+        <div class="container">
+            <div class="footer-socials text-center">
+                <div class="mb-3">
+                    <a href="https://www.facebook.com/essexgardenstrust/" target="_blank" class="btn btn-outline-light btn-floating m-1">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="mailto:info@essexgardenstrust.org.uk" target="_blank" class="btn btn-outline-light btn-floating m-1">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                    <a href="https://www.instagram.com/essexgardenstrust" target="_blank" class="btn btn-outline-light btn-floating m-1">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://x.com/EssexGT" target="_blank" class="btn btn-outline-light btn-floating m-1">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p class="mb-0">A Member of the <a href="https://thegardenstrust.org/" target="_blank">Gardens Trust</a>.</p>
+                <p class="mb-0">Registered Charity No. 1057876.</p>
+                <p class="mb-0">Company No. 3233796 | <a href="https://www.gov.uk/government/organisations/gardens-trust" target="_blank">Contact us</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="mb-0">Copyright &copy; 2026 Essex Gardens Trust. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

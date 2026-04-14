@@ -36,24 +36,20 @@ body {
   padding-top: 4rem;
 }
 
-.hero {
-  background: url('img/hero.jpg') center/cover no-repeat;
-  fill-opacity: 0.6;
-  min-height: 30vh;
-}
-
-.hero-overlay {
-  display: flex;
-  flex-direction:column-reverse;
-
-  justify-content: center;
-  margin-top: 5rem;
+.carousel-item img {
+  height: 40vh;
 }
 
 .wwd-ttl {
   text-align: center;
   color: #2f5d50;
   font-weight: 600;
+}
+
+.wwd-ttl h5{
+  font-weight: 350;
+  font-size: 1.3rem;
+  padding: 1.25rem;
 }
 
 .card {
@@ -66,11 +62,21 @@ body {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
 }
 
+.card-header{
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.card-header .bi {
+  font-size: 2.5rem;
+  color: #2f5d50;
+}
+
 .card-title {
   color: #2f5d50;
   font-weight: 600;
-  font-size: 1.25rem;
-  padding-top: 0.5rem;
+  font-size: 1.75rem;
+  padding-top: 0.25rem;
 }
 
 .card-text{
@@ -79,11 +85,29 @@ body {
   line-height: 1.6;
 }
 
+.card-pricing-text {
+  text-align: left;
+  padding: 0.25rem 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #2f5d50;
+}
+
+.benefits strong {
+  margin-bottom: 0.5rem;
+  color: #2f5d50;
+}
+
 .card-img {
   object-fit: fill;
   height: 13rem;
 }
 
+.pricing-card-title {
+  color: #2f5d50;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
 
 .lead {
   font-size: 1.25rem;
@@ -110,6 +134,9 @@ body {
 .fade-delay-3 { animation-delay: 0.6s; }
 .fade-delay-4 { animation-delay: 0.8s; }
 .fade-delay-5 { animation-delay: 1s; }
+.fade-delay-6 { animation-delay: 1.2s; }
+.fade-delay-7 { animation-delay: 1.4s; }
+.fade-delay-8 { animation-delay: 1.6s; }
 
 @keyframes fadeInUp {
   to {
@@ -160,6 +187,16 @@ body {
 
 .btn-floating:hover .bi-twitter-x {
   color: #000000;
+}
+
+.about_img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.joint-members-field {
+  display: none;
 }
 
 

@@ -1,0 +1,54 @@
+{
+    "events":[
+    {
+        "title": "Dr David Marsh on \"The Great Geranium Robbery\"",
+        "description": "In the late 18th century, Britain’s expanding empire brought many new and exotic plants...",
+        "date": "Saturday, Feb 7, 2026 | 2:00 PM to 4:30 PM",
+        "link": "https://www.eventbrite.co.uk/e/the-great-geranium-robbery-a-lecture-being-given-by-dr-david-marsh-tickets-1963372620360?aff=oddtdtcreator",
+        "image": "img/geranium.jpg"
+    },
+    {   
+        "title": "Dr Alison Moller on \"Pioneering English Plantswomen\"",
+        "description": "Garden design remained largely male-dominated until the late 19th century...",
+        "date": "Saturday, Mar 7, 2026 | 2:00 PM to 4:30 PM",
+        "link": "https://www.eventbrite.co.uk/e/pioneering-english-plantswomen-a-lecture-by-alison-moller-tickets-1963415221782",
+        "image": "img/plantswomen.jpg"
+    },
+    {
+        "title": "Event 3 Title",
+        "description": "Event 3 Description",
+        "date": "Event 3 Date",
+        "image": "img/event3.jpg",
+        "link": "https://www.eventbrite.co.uk/e/event-3-tickets-1234567890?aff=oddtdtcreator"
+    },
+    {
+        "title": "Event 4 Title",
+        "description": "Event 4 Description",
+        "date": "Event 4 Date",
+        "image": "img/event4.jpg",
+        "link": "https://www.eventbrite.co.uk/e/event-4-tickets-1234567890?aff=oddtdtcreator"
+    },    
+    {
+        "title": "Event 5 Title",
+        "description": "Event 5 Description",
+        "date": "Event 5 Date",
+        "image": "img/event5.jpg",
+        "link": "https://www.eventbrite.co.uk/e/event-5-tickets-1234567890?aff=oddtdtcreator"
+    },
+    {
+        "title": "Event 6 Title",
+        "description": "Event 6 Description",
+        "date": "Event 6 Date",
+        "image": "img/event6.jpg",
+        "link": "https://www.eventbrite.co.uk/e/event-6-tickets-1234567890?aff=oddtdtcreator"
+    },
+    {
+        "title": "Event 7 Title",
+        "description": "Event 7 Description",
+        "date": "Event 7 Date",
+        "image": "img/event7.jpg",
+        "link": "https://www.eventbrite.co.uk/e/event-7-tickets-1234567890?aff=oddtdtcreator"
+    }
+    ]
+
+}
