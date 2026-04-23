@@ -1,10 +1,10 @@
 .navbar {
-  background-color: #ffffff;   /* deep garden green */
+  background-color: #ffffff;  
   font-size: large;
 }
 
 .navbar-toggler {
-  border-color: #2f5d50 ; /* bright leaf green */
+  border-color: #2f5d50 ; 
   border-width: 0.2rem;
 }
 
@@ -173,7 +173,7 @@ body {
 }
 
 .btn-floating:hover .bi-envelope {
-  color: #4caf50;   /* garden green */
+  color: #4caf50;  
 }
 
 .btn-floating:hover .bi-facebook {

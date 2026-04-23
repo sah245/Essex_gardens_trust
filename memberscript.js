@@ -40,7 +40,9 @@ const jointMemberField = document.getElementById('joint-member-field');
 membershipType.addEventListener('change', () => {
   if (membershipType.value === 'Joint') {
     jointMemberField.style.display = 'block';
+    jointMemberField.querySelector('input').setAttribute('required', 'required');
   } else {
     jointMemberField.style.display = 'none';
+    jointMemberField.querySelector('input').removeAttribute('required');
   }
 });
